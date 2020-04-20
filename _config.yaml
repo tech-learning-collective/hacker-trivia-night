@@ -10,24 +10,24 @@
 # Set a title and description in other languages using the `site_title`
 # and `site_description` keys in the appropriate `_data/strings/` data
 # file for the desired language.
-title: Example Site
+title: Hacker Trivia Night by Tech Learning Collective
 description: >-
-    Site description.
+    Hack the culture. Frag the man. Free the world. Free-to-play cybersecurity games featuring prizes for the winning teams.
 timezone: America/New_York # Use the TZ database: https://en.wikipedia.org/wiki/TZID
-type: Thing                # Use a sensible value from Schema.org.
+type: Website              # Use a sensible value from Schema.org.
 
 # Jekyll SEO Tag metadata.
 # See https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-author: exampleauthor
+author: Tech Learning Collective
 lang: &lang >- # Default language, YAML anchor is used elsewhere.
     en_US
-logo: /static/images/main-logo.png
+logo: /static/images/logo.trivia-night.gif
 facebook:
-    publisher: FacebookPageID
-social:
-    links:
-        - https://www.facebook.com/FacebookPageID
-        - https://www.instagram.com/InstagramHandle
+#    publisher: FacebookPageID
+#social:
+#    links:
+#        - https://www.facebook.com/FacebookPageID
+#        - https://www.instagram.com/InstagramHandle
 
 # Blog settings.
 paginate: 5    # How many posts per HTML page.

@@ -1,40 +1,155 @@
 /**
- * @group Variables.
- */
-:root {
-    --main-color: black;
-    --accent-color: red;
+* @group Typography.
+*/
+@font-face {
+    src: url("../fonts/CallingCode-Regular.ttf");
+    font-family: "CallingCode";
 }
-
-/**
- * @group Typography.
- *
- * Put @font-face declarations here.
- */
-
-/**
- * @group Reset.
- */
-html,
-body,
-ul,
-ol,
-figure {
-    margin: 0;
-    border: none;
-    padding: 0;
-    list-style-type: none;
-}
-
 body {
-    background: #fff;
-    color: var(--main-color);
+    background: #000;
+    color: #79DBA8;
+    font: 16px CallingCode, Monospace;
+}
+h1 {
+    position: relative;
+    top: -11px;
+    margin: 0;
+    padding: 0;
+}
+h2,
+h3,
+#Masthead,
+#PageFooter {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#Masthead p {
+    font-size: 14px;
+}
+p {
+    line-height: 1.25em;
+}
+#next-event {
+    padding: 1em;
+    text-align: center;
+}
+.icon {
+    width: 1em;
+}
+a[href^="http://h2vx.com/ics/"],
+a[href^="webcal://h2vx.com/ics/"] {
+    display: inline-block;
+    border: .15em solid yellow;
+    border-radius: 5px;
+    padding: .5em;
+    color: yellow;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a[href^="webcal://h2vx.com/ics/"] img {
+    filter: invert(100%);
+}
+a[href^="http://h2vx.com/ics/"]:hover,
+a[href^="webcal://h2vx.com/ics/"]:hover {
+    border: .15em solid yellow;
+    color: #000;
+    background: yellow;
+}
+a[href^="webcal://h2vx.com/ics/"]:hover img {
+    filter: invert(0);
+}
+#PageFooter {
+    font-size: xx-small;
+}
+/**
+ * @group Layout
+ */
+html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    margin-top: 3em;
+    padding: 0 20px;
+}
+#the-background-noise {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url("../images/screencapture.gif") center no-repeat ;
+    background-size: calc(100% + 400px);
+    opacity: .3;
+    z-index: -100;
+}
+section {
+    margin: 2em 0;
+    background: rgba(255,255,255,.3);
+    padding: 1em;
+}
+section:first-of-type {
+    border-radius: 3em 3em 0 0;
+}
+section:last-of-type {
+    border-radius: 0 0 3em 3em;
+}
+li {
+    list-style-type: none;
+    position: relative;
+}
+li::before {
+    position: absolute;
+    left: -1.5em;
+    content: "\25EC";
+    font-size: .8em;
+}
+
+@media screen and (min-width: 690px) {
+    body {
+        padding: 0 120px;
+    }
+    #Masthead {
+        position: fixed;
+        width: 380px;
+    }
+    #Masthead h1 {
+        font-size: 120px;
+    }
+    main, #PageFooter {
+        margin-left: 460px;
+    }
+
+    #Masthead p {
+        overflow: hidden;
+        border-right: .15em solid orange;
+        white-space: nowrap;
+        margin: 0 auto;
+        animation: 
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite;
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
+    }
 }
 
 /**
- * @group Mobile styles.
- *
- * Put small-screen styles here.
+ * @group Links
  */
-@media screen and (max-width: 500px) {
+a {
+    color: #EEE;
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 1px dotted yellow;
+    text-decoration: none;
 }

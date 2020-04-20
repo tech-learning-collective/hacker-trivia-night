@@ -1,12 +1,18 @@
 <header id="Masthead">
     <h1 itemprop="name" content="{% include site-title.txt %}">
         <a href="{%- include homeurl.html -%}">
-            <img src="{{ site.logo | relative_url }}" alt="{% include site-title.txt %}" itemprop="image" />
+            <img src="{{ site.logo | relative_url }}" alt="{% include site-title.txt %}" itemprop="image" width="100%" />
         </a>
     </h1>
+    <p>Hack the culture. Frag the man. Free the world.</p>
+
+    {% comment %} For now, we don't have a use for this.
+
     <nav id="MainNavigation" onclick="void(0);">{% comment %} Mobile Safari requires `onclick` to activate touch events. {% endcomment %}
         {% include site-navigation.html %}
     </nav>
 
     {% include site-language.html %}
+
+    {% endcomment %}
 </header>
