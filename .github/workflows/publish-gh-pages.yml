@@ -1,0 +1,30 @@
+# This file defines a GitHub Actions workflow that is triggered when
+# commits are pushed to the configured branch. It builds the Jekyll
+# site in a Docker container on GitHub's infrastructure, commits the
+# built code to the configured `gh_pages_branch` in this repository,
+# and then requests a new GitHub Pages build.
+#
+# This process makes it possible to use, e.g., custom Jekyll plugins
+# even if they are not whitelisted by GitHub Pages, since the plugins
+# are executed as part of the continuous deployment pipeline defined
+# here.
+#
+# For more information, see:
+#
+#     https://help.github.com/en/actions
+---
+name: Publish to GitHub Pages
+
+on:
+  push:
+    branches:
+      - forestry
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: meitar/jekyll-builder-for-github-pages-action@v1
+      with:
+        secret_gh_pages_api_token: ${{ secrets.GH_PAGES_TOKEN }}

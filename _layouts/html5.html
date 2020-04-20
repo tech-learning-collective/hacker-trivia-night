@@ -1,0 +1,16 @@
+{%- include globals.liquid -%}
+<!DOCTYPE html>
+<html lang="{{ lang }}"
+      itemscope="itemscope"
+      itemtype="https://schema.org/{{ site.type | default: "Thing" }}"
+>
+{% include head.html %}
+<body>
+    {% include masthead.html %}
+    <main id="MainContent">
+    {{ content }}
+    </main>
+    {% include foot.html %}
+<script src="{% link static/js/main.js %}"></script>
+</body>
+</html>

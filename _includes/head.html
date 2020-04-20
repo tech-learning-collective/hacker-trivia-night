@@ -1,0 +1,32 @@
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+
+    <title>{% include title-text.html %}</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="{% link favicon.ico %}" />
+
+    <link rel="stylesheet" href="{% link static/css/main.css %}" />
+    {% comment %}<!-- Uncomment this line and ensure the Git submodule is cloned for country flag CSS. -->
+    <link rel="stylesheet" href="{% link static/flag-icon-css/css/flag-icon.min.css %}" />
+    {% endcomment %}
+
+    {% assign posts = site.posts | where: "i18n", page.i18n | sort: "lang" %}
+    {% for post in posts %}
+    <link rel="alternate" hreflang="{{ post.lang | replace: "_", "-" }}" href="{{ post.url }}" />
+    {% endfor %}
+    {% assign pages = site.pages | where: "i18n", page.i18n | sort: "lang" %}
+    {% for page in pages %}
+    <link rel="alternate" hreflang="{{ page.lang | replace: "_", "-" }}" href="{{ page.url }}" />
+    {% endfor %}
+
+    {% feed_meta %}
+
+    {% if site.events %}<link rel="alternate" href="{% link events/all.ics %}" type="text/calendar" title="{% include gettext.liquid key="subscribe_to_events" %}" />{% endif %}
+
+    {% if page.next %}<link rel="next" href="{{ page.next.url | relative_url }}" />{% endif %}
+    {% if page.previous %}<link rel="prev" href="{{ page.previous.url | relative_url }}" />{% endif %}
+
+    {% seo title=false %}
+</head>

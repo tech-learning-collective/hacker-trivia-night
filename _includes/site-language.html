@@ -1,0 +1,24 @@
+<div class="language-switcher">
+    <h2>{% include gettext.liquid key="this_page_has_translations" %}</h2>
+    <ul>
+        {% if page.collection == "posts" %}
+        {% assign posts = site.posts | where: "i18n", page.i18n | sort: "lang" %}
+        {% for post in posts %}
+        <li>
+            <span class="flag-icon flag-icon-{{ post.lang | slice: -2, 2 | downcase }} flag-icon-squared"></span>
+            <a href="{{ post.url }}" hreflang="{{ post.lang }}">{{ post.lang }}</a>
+        </li>
+        {% endfor %}
+        {% endif %}
+
+        {% if nil == page.collection %}
+        {% assign pages = site.pages | where: "i18n", page.i18n | sort: "lang" %}
+        {% for page in pages %}
+        <li>
+            <span class="flag-icon flag-icon-{{ page.lang | slice: -2, 2 | downcase }} flag-icon-squared"></span>
+            <a href="{{ page.url }}" hreflang="{{ page.lang }}">{{ page.lang }}</a>
+        </li>
+        {% endfor %}
+        {% endif %}
+    </ul>
+</div><!-- .language-switcher -->
