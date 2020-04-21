@@ -1,0 +1,14 @@
+name: The Bad Old Days
+type: BarOrPub
+address:
+    streetAddress: 1684 Woodbine Street
+    addressLocality: Ridgewood
+    addressRegion: NY
+    postalCode: 11385
+    addressCountry: United States
+url: https://thebadoldays.com/
+logo: https://thebadolddays.github.io/static/images/logo.the-bad-old-days.transparent.750x171.png
+sameAs:
+    - https://www.facebook.com/thebadolddays
+    - https://www.instagram.com/thebadolddays
+maximumAttendeeCapacity: 64

@@ -8,9 +8,13 @@
 
     <p>A cybersecurity competition that anyone can play to benefit local businesses (FOR EXAMPLE, BUT NOT YET CONFIRMED):</p>
     <ul id="beneficiaries">
-        <li><a href="https://thebadolddays.com/">Bad Old Days</a></li>
-        <li><a href="https://thefootlightbar.nyc/">The Footlight Bar</a></li>
-        <li><a href="https://www.wonderville.nyc/">Wonderville</a></li>
+        {% for event in site.events limit: 1 %}
+        {% for beneficiary in event.beneficiaries %}
+        {% assign x = beneficiary | replace: " ", "_" %}
+        {% assign b = site.data.organizations[x] %}
+        <li>{% if b.url %}<a href="{{ b.url }}">{% endif %}{{ b.name }}{% if b.url %}</a>{% endif %}</li>
+        {% endfor %}
+        {% endfor %}
     </ul>
 
     {% comment %} For now, we don't have a use for this.

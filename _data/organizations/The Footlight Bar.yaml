@@ -1,0 +1,14 @@
+---
+name: The Footlight Bar
+type: BarOrPub
+address:
+    streetAddress: 465 Seneca Avenue
+    addressLocality: Ridgewood
+    addressRegion: NY
+    postalCode: 11385
+    addressCountry: United States
+url: https://thefootlightbar.nyc/
+logo: https://thefootlightbar.nyc/static/images/logo.thefootlightbar.transparent.1110x1370.png
+sameAs:
+    - https://www.facebook.com/thefootlightbar
+    - https://www.instagram.com/thefootlightbar/

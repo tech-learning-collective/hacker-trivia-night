@@ -32,13 +32,15 @@ p {
 }
 #next-event {
     padding: 1em;
+}
+#next-event .e-content > p:last-child {
     text-align: center;
 }
 .icon {
     width: 1em;
 }
-a[href^="http://h2vx.com/ics/"],
-a[href^="webcal://h2vx.com/ics/"] {
+a[href$=".ics"],
+a[href^="webcal://"] {
     display: inline-block;
     border: .15em solid yellow;
     border-radius: 5px;
@@ -48,16 +50,15 @@ a[href^="webcal://h2vx.com/ics/"] {
     text-decoration: none;
     text-transform: uppercase;
 }
-a[href^="webcal://h2vx.com/ics/"] img {
+a[href$=".ics"] img.icon {
     filter: invert(100%);
 }
-a[href^="http://h2vx.com/ics/"]:hover,
-a[href^="webcal://h2vx.com/ics/"]:hover {
+a[href$=".ics"]:hover {
     border: .15em solid yellow;
     color: #000;
     background: yellow;
 }
-a[href^="webcal://h2vx.com/ics/"]:hover img {
+a[href$=".ics"]:hover img {
     filter: invert(0);
 }
 #PageFooter {
@@ -86,7 +87,7 @@ body {
     opacity: .3;
     z-index: -100;
 }
-section {
+#MainContent > section {
     margin: 2em 0;
     background: rgba(255,255,255,.3);
     padding: 1em;
@@ -163,4 +164,8 @@ a {
 a:hover {
     border-bottom: 1px dotted yellow;
     text-decoration: none;
+}
+
+.h-event .offers {
+    display: none;
 }
