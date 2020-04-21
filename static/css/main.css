@@ -97,15 +97,23 @@ section:first-of-type {
 section:last-of-type {
     border-radius: 0 0 3em 3em;
 }
-li {
+ul li {
     list-style-type: none;
     position: relative;
 }
-li::before {
+ul li::before {
     position: absolute;
     left: -1.5em;
     content: "\25EC";
     font-size: .8em;
+}
+
+#beneficiaries {
+    margin: 0;
+    padding: 0;
+}
+#beneficiaries li::before {
+    content: "";
 }
 
 @media screen and (min-width: 690px) {
@@ -123,7 +131,7 @@ li::before {
         margin-left: 460px;
     }
 
-    #Masthead p {
+    #Masthead #Tagline {
         overflow: hidden;
         border-right: .15em solid orange;
         white-space: nowrap;
@@ -145,6 +153,9 @@ li::before {
 /**
  * @group Links
  */
+#Masthead h1 a:hover {
+    border-bottom: none;
+}
 a {
     color: #EEE;
     text-decoration: none;
