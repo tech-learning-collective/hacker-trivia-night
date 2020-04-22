@@ -21,7 +21,7 @@ type: Website              # Use a sensible value from Schema.org.
 author: Tech Learning Collective
 lang: &lang >- # Default language, YAML anchor is used elsewhere.
     en_US
-logo: /static/images/logo.trivia-night.gif
+logo: &logo /static/images/logo.trivia-night.gif
 facebook:
 #    publisher: FacebookPageID
 #social:
@@ -75,7 +75,7 @@ iCalendar:
     defaults:
         location: 123 Some Place
         status: CONFIRMED
-        image: event-placeholder-image.jpg
+        image: *logo
 
 # Build settings.
 markdown: kramdown

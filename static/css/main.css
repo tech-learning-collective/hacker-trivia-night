@@ -76,7 +76,7 @@ html, body {
 }
 body {
     margin-top: 3em;
-    padding: 0 20px;
+    padding: 0 20px 2em;
 }
 #the-background-noise {
     width: 100vw;
@@ -99,6 +99,9 @@ section:first-of-type {
 }
 section:last-of-type {
     border-radius: 0 0 3em 3em;
+}
+section:first-of-type:last-of-type {
+    border-radius: 3em;
 }
 ul li {
     list-style-type: none;
@@ -128,7 +131,7 @@ ol li {
 
 @media screen and (min-width: 690px) {
     body {
-        padding: 0 120px;
+        padding: 0 120px 2em;
     }
     #Masthead {
         position: fixed;
@@ -175,6 +178,7 @@ a:hover {
     text-decoration: none;
 }
 
+.h-event [itemprop="image"],
 .h-event .offers {
     display: none;
 }
