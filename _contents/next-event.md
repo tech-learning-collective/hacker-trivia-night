@@ -7,5 +7,5 @@ html_id: next-event
 {% include h-event.html event=event %}
 {% endfor %}
 
-[![Subscribe]({% link static/images/icon.calendar.svg %}){:.icon }](webcal://{{ "events/all.ics" | absolute_url | replace: "https://", "" | replace: "http://", "" }} "Subscribe to event calendar")
-[Add to calendar]({% link events/all.ics %})
+[![Subscribe]({% link static/images/icon.calendar.svg %}){:.icon }](webcal://{{ "events/all.ics" | absolute_url | replace: "https://", "" | replace: "http://", "" }} "Subscribe to event calendar"){:.button}
+[Add to calendar]({% link events/all.ics %}){:.button}

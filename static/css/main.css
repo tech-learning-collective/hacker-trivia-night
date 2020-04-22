@@ -42,8 +42,7 @@ p {
 .icon {
     width: 1em;
 }
-a[href$=".ics"],
-a[href^="webcal://"] {
+a.button {
     display: inline-block;
     border: .15em solid yellow;
     border-radius: 5px;
@@ -53,15 +52,15 @@ a[href^="webcal://"] {
     text-decoration: none;
     text-transform: uppercase;
 }
-a[href$=".ics"] img.icon {
+a.button img.icon {
     filter: invert(100%);
 }
-a[href$=".ics"]:hover {
+a.button:hover {
     border: .15em solid yellow;
     color: #000;
     background: yellow;
 }
-a[href$=".ics"]:hover img {
+a.button:hover img {
     filter: invert(0);
 }
 #PageFooter {
