@@ -5,3 +5,7 @@ layout: html5
 <section>
     {% include h-event.html event=page download_link=true paginate=true %}
 </section>
+<section>
+    <h2 id="this-games-beneficiaries">This game&rsquo;s beneficiaries:</h2>
+    {% include event-beneficiaries.html event=page %}
+</section>

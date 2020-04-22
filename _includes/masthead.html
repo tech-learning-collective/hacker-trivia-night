@@ -5,23 +5,12 @@
         </a>
     </h1>
     <p id="Tagline">Hack the planet. Frag the man. Free the world.</p>
+    <p>A cybersecurity competition that anyone can play to benefit local community beneficiaries.</p>
 
-    <p style="text-align: left;">A cybersecurity competition that anyone can play to benefit local community beneficiaries.</p>
-    <p style="text-align: left;">Next game&rsquo;s beneficiaries:</p>
-    <ul id="beneficiaries">
-        {% for event in site.events limit: 1 %}
-        {% for beneficiary in event.beneficiaries %}
-        {% assign x = beneficiary | replace: " ", "_" %}
-        {% assign b = site.data.organizations[x] %}
-        <li style="font-size: x-small;">
-            {% if b.url %}<a href="{{ b.url }}">{% endif %}
-                <img src="{{ b.logo }}" style="width: 100%;" />
-                {{ b.name }}
-            {% if b.url %}</a>{% endif %}
-        </li>
-        {% endfor %}
-        {% endfor %}
-    </ul>
+    {% for event in site.events limit: 1 %}
+    <p>Next game&rsquo;s beneficiaries:</p>
+    {% include event-beneficiaries.html event=event excerpt_only=true %}
+    {% endfor %}
 
     {% comment %} For now, we don't have a use for this.
 

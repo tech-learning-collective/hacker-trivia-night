@@ -1,0 +1,17 @@
+<ul class="event-beneficiaries">
+    {% for beneficiary in include.event.beneficiaries %}
+    <li>
+    {% assign x = beneficiary | replace: " ", "_" %}
+    {% assign b = site.data.organizations[x] %}
+        <div>
+        {% if b.url %}<a href="{{ b.url }}">{% endif %}
+            {% if b.logo %}<img src="{{ b.logo }}" />{% endif %}
+            {{ b.name }}
+        {% if b.url %}</a>{% endif %}
+        </div>
+        {% unless include.excerpt_only %}
+        {{ b.description | markdownify }}
+        {% endunless %}
+    </li>
+    {% endfor %}
+</ul>

@@ -10,9 +10,9 @@
 # Set a title and description in other languages using the `site_title`
 # and `site_description` keys in the appropriate `_data/strings/` data
 # file for the desired language.
-title: Hacker Trivia Night by Tech Learning Collective
+title: Hacker Trivia Night
 description: >-
-    Hack the culture. Frag the man. Free the world. Free-to-play cybersecurity games featuring prizes for the winning teams.
+    Hack the culture. Frag the man. Free the world. A free-to-play cybersecurity competition to benefit local community beneficiaries, produced by Tech Learning Collective and friends.
 timezone: America/New_York # Use the TZ database: https://en.wikipedia.org/wiki/TZID
 type: Website              # Use a sensible value from Schema.org.
 

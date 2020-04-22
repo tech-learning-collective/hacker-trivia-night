@@ -1,6 +1,13 @@
 ---
 name: Wonderville
-description: Brooklyn's new home for independently made arcade games.
+description: |
+    Wonderville was founded by (soon to be) married couple Mark Kleback and Stephanie Gross. With over 10 years of experience working with DIY music venues across Brooklyn like Death By Audio, Silent Barn, Market Hotel, and Secret Project Robot, the duo decided to bring their combined experience to a new space: an indie arcade gallery and bar.
+
+    Mark has been working as a creative technologist for the better part of a decade, building interactive installations for museums, music festivals, and corporate pop-ups. He's also the founder of Death By Audio Arcade, a 501(c)-3 non-profit organization in New York City focused on showcasing games by local developers. The organization not only hosts events, but also runs workshops with game developers, showing them how to cut and paint wood, solder electronics, and assemble physical installations for video games that go on to live in public spaces. Many of these past collaborations can now be played at Wonderville.
+
+    Stephanie has over 10 years of experience working with local arts organizations, helping them to navigate the bureaucracy of the city and file paperwork to become non-profits. She's also worked with the Department of Consumer Affairs and is currently a senior director at the Department of Finance.
+
+    Together, they bring their experience to a new type of DIY venue - one that exists legally, with all of the proper licensing and permits, but also strives to showcase independent games, music, and art. Wonderville hosts a wide range of events, from live music, to comedy shows, from video game showcases and tournaments, to Dungeons and Dragons and board game nights.
 type: BarOrPub
 address:
     streetAddress: 1186 Broadway
