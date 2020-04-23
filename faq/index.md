@@ -30,11 +30,17 @@ Our best advice for this is simply to let them know they can! Announce your part
 
 ## How do I become a Hacker Trivia Night beneficiary?
 
-TK-TODO
+The process to become a Hacker Trivia Night beneficiary begins by submitting the [Hacker Trivia Night Beneficiary Application form]({% link beneficiaries/apply/index.md %}#MainContent). We will ask you for some basic information about your organization or group, as well as for contact information so that we can get in touch with you.
+
+Applying is free, quick, and easy.
+
+Once you have submitted your application, you may need to be patient! We process applications in batches, and Hacker Trivia Night competitions are often themed. This means it may take us a while to get back to you about your application. Moreover, the fact of the matter is that we *do* make subjective decisions about which potential beneficiaries we confirm based on our political beliefs, but in general we aim for broad inclusion among those in need.
+
+Please be responsive during the confirmation process, as we may need to reach out to you one or more times. We will always be very clear about our timeline, but please know that we often have to make decisions quickly and that there *is* a limited amount of funds and thus beneficiary slots per competition.
 
 ## My team(s) won! When will I see my winnings?
 
-TK-TODO
+Extremely soon! During the confirmation process, we will verify your payout information so that we can send you the collected donations as soon as we can. The exact amount of time this takes depends largely on our crowdfunding platform; it can take several business days for funds to be transferred, but fear not, they are on the way!
 
 </details><!-- #for-beneficiaries -->
 
