@@ -1,42 +1,11 @@
 ---
-title: Events
-i18n: events
+title: Competitions and Donors
 ---
 
-# Upcoming events
+{:style="text-align: center;"}
+[<img alt="Calendar" src="{% link static/images/icon.calendar.svg %}" class="calendar icon" /> Subscribe to our calendar.]({{ "/events/all.ics" | absolute_url | replace: "https:", "webcal:" | replace: "http:", "webcal:" }} "Subscribe to our calendar."){:.button}
+[<img alt="Download" src="{% link static/images/icon.download.svg %}" class="download icon" />]({% link events/all.ics %} "Export events as iCalendar file."){:.button}
 
-[<img alt="Calendar" src="{% link static/images/icon.calendar.svg %}" class="calendar icon" /> Subscribe to our calendar.]({{ "/events/all.ics" | absolute_url | replace: "https:", "webcal:" | replace: "http:", "webcal:" }} "Subscribe to our calendar.")
-([<img alt="Download" src="{% link static/images/icon.download.svg %}" class="download icon" />]({% link events/all.ics %} "Export events as iCalendar file."))
-
-{% if site.events %}
-{% assign events = site.events | where_exp: "event", "event.endDate > site.time" | sort: "startDate" %}
-<ol class="h-events">
-{% for event in events %}
-    <li>
-        {% include h-event.html event=event excerpt=true %}
-    </li>
-{% endfor %}
-</ol><!-- .h-events -->
-
-# Recent events
-
-{% assign events = site.events | where_exp: "event", "event.endDate < site.time" | sort: "startDate" | reverse %}
-{% comment %}
-<!--
-    When Jekyll can paginate collections natively, this can be updated.
-    For now, we slice to the most recent 10 events so that this page
-    does not grow too much. It means we can't publish archive listing
-    pages in paginated form, but the permalinks will always be online.
--->
-{% endcomment %}
-{% assign events = events | slice: 0, 10 %}
-<ol class="h-events">
-{% for event in events %}
-    <li>
-        {% include h-event.html event=event excerpt=true %}
-    </li>
-{% endfor %}
-</ol><!-- .h-events -->
-{% else %}
-<p>No events&mdash;yet. :)</p>
-{% endif %}
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSWgCwtbyMB-pRPQef-BLgo3ZikshHnHNJqt-QPa9yk0KGUNobfnKc0GzUmy1T5_ZZ2esln2TDTvqG3/pubhtml?gid=917569348&amp;widget=true&amp;headers=false" frameborder="0" framemargin="0" width="100%" height="600">
+    <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSWgCwtbyMB-pRPQef-BLgo3ZikshHnHNJqt-QPa9yk0KGUNobfnKc0GzUmy1T5_ZZ2esln2TDTvqG3/pubhtml">View Hacker Trivia Night public competition and donor data</a>.</p>
+</iframe>

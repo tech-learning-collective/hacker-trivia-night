@@ -37,6 +37,11 @@ main:
       identifier: about
       title_text: Learn more about the game!
       lang: en_US
+    - url: /events/#MainContent
+      title: Competitions and Donors
+      identifier: events
+      title_text: View competition and donor information.
+      lang: en_US
     - url: /faq/#MainContent
       title: FAQ
       identifier: faq

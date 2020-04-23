@@ -60,7 +60,7 @@ Here&rsquo;s how to get money by participating in Hacker Trivia Night:
     * You can submit your application at any time, regardless of the current game&rsquo;s theme or status.
     * Applications are processed in batches, so you may not hear from us immediately. Please be patient!
 1. Respond as quickly as you can to any additional inquiries we have during the confirmation process.
-    * We will eventually need more information than we ask for initially, such as payout information.
+    * We will eventually need more information than we ask for initially, such as payout information.  
         <small>(We only maintain payout information for confirmed beneficiaries, not all applicants.)</small>
 1. Inform your community via email, social media, and word-of-mouth that you are participating in Hacker Trivia Night when you are selected.
     * Hacker Trivia Night competitions are typically themed, so you will most likely be selected as a beneficiary in a group with similar types of beneficiaries.
@@ -77,7 +77,7 @@ Here&rsquo;s how to get money by participating in Hacker Trivia Night:
 
 Good samaritans such as yourself, your friends, your neighbors, and others donate to create a prize pool that will go to support the beneficiaries.
 
-We use well-known crowdfunding platforms like GoFundMe to keep donors updated and to help manage funds in a trusted, transparent manner.
+We use well-known payment platforms like PayPal to make the donation process secure, and we publish real-time updates about collected donations to help manage funds in a trusted, transparent manner.
 </details><!-- Donors -->
 
 Still have questions? Read the [game rules]({% link about/index.md %}#rules) and check out the [FAQ]({% link faq/index.md %}#MainContent).
