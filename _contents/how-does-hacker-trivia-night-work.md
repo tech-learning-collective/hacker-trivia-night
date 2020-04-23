@@ -70,4 +70,4 @@ Good samaritans such as yourself, your friends, your neighbors, and others donat
 We use well-known crowdfunding platforms like GoFundMe to keep donors updated and to help manage funds in a trusted, transparent manner.
 </details><!-- Donors -->
 
-Still have questions? Read the [game rules]({% link about/index.md %}#rules) and check out the [FAQ]({% link faq/index.md %}).
+Still have questions? Read the [game rules]({% link about/index.md %}#rules) and check out the [FAQ]({% link faq/index.md %}#MainContent).

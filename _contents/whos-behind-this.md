@@ -12,7 +12,7 @@ Hacker Trivia Night is a joint project by [Tech Learning Collective](https://tec
 
 Tech Learning Collective trains politically self-motivated individuals in the arts of hypermedia, Information Technology, and radical political practice. Individuals can sign up for intensive [courses](https://techlearningcollective.com/courses/), one-off webinar [workshops](https://techlearningcollective.com/workshops/), or [private trainings](https://techlearningcollective.com/pricing/#booking-fees).
 
-Tech Learning Collective regularly hosts free, donation-based, and low-cost computer training events; check out the [Tech Laerning Collective event calendar](https://techlearningcollective.com/events/) and sign up for a workshop today!
+Tech Learning Collective regularly hosts free, donation-based, and low-cost computer training events; check out the [Tech Learning Collective event calendar](https://techlearningcollective.com/events/) and sign up for a workshop today!
 
 ### Shift-CTRL Space
 

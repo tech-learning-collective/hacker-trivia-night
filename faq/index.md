@@ -87,7 +87,6 @@ You can see a list of the beneficiaries selected for any given Hacker Trivia Nig
 To be absolutely clear, the *upcoming* game&rsquo;s beneficiaries are:
 
 {% for event in events limit: 1 %}
-{:style="display: grid; grid-template-columns: 1fr 1fr 1fr;"}
 {% include event-beneficiaries.html event=event excerpt_only=true %}
 {% endfor %}
 {% endif %}

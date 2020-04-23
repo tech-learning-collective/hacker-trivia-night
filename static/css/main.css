@@ -24,6 +24,9 @@ h3,
     margin: 0;
     padding: 0;
 }
+#Masthead {
+    letter-spacing: -1px;
+}
 #Masthead p {
     font-size: 14px;
 }
@@ -132,12 +135,13 @@ ol li {
 
 #Masthead .event-beneficiaries {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1em;
+    grid-template-columns: 1fr;
+    grid-gap: .5em;
     text-align: center;
 }
 #Masthead .event-beneficiaries div {
     font-size: x-small;
+    word-break: break-word;
 }
 .event-beneficiaries {
     margin: 0;
@@ -154,9 +158,12 @@ ol li {
 }
 .event-beneficiaries img {
     display: block;
-    max-width: 100%;
-    max-height: 250px;
+    max-width: 75%;
+    max-height: 175px;
     margin: 0 auto 1em;
+}
+#Masthead .event-beneficiaries img {
+    max-width: 100%;
 }
 
 /**
@@ -178,37 +185,22 @@ ol li {
 
 @media screen and (min-width: 690px) {
     body {
-        padding: 0 120px 2em;
+        padding: 0 60px 2em;
     }
     #Masthead {
         position: fixed;
-        width: 380px;
+        width: 420px;
     }
     #Masthead h1 {
         font-size: 120px;
+    }
+    #Masthead .event-beneficiaries {
+        grid-template-columns: repeat(3, 1fr);
     }
     main, #PageFooter {
         margin-left: 460px;
     }
 
-    #Masthead #Tagline {
-        display: inline-block;
-        overflow: hidden;
-        margin: 0;
-        border-right: .15em solid orange;
-        white-space: nowrap;
-        animation:
-            typing 4s steps(40, end),
-            blink-caret .75s step-end infinite;
-    }
-    @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
-    }
-    @keyframes blink-caret {
-        from, to { border-color: transparent }
-        50% { border-color: orange; }
-    }
 }
 
 /**
@@ -251,4 +243,26 @@ details summary {
 }
 details summary span:hover {
     border-bottom: 1px dotted yellow;
+}
+
+/**
+ * @group Animations.
+ */
+#Masthead #Tagline {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation:
+        typing 4s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
 }

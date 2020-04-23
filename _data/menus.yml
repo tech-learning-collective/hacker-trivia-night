@@ -32,21 +32,21 @@ main:
       title: Home
       identifier: home
       lang: en_US
-    - url: /about/
+    - url: /about/#MainContent
       title: About and Rules
       identifier: about
       title_text: Learn more about the game!
       lang: en_US
-    - url: /faq/
+    - url: /faq/#MainContent
       title: FAQ
       identifier: faq
       title_text: Answers to frequently asked questions.
       lang: en_US
-    - url: /contact/
+    - url: /contact/#MainContent
       title: Contact
       identifier: contact
       lang: en_US
-    - url: /blog/
+    - url: /blog/#MainContent
       title: Blog
       identifier: blog
       lang: en_US
