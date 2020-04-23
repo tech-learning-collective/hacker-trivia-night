@@ -3,4 +3,4 @@ title: Contact
 i18n: contact
 ---
 
-Contact page.
+For **all inquiries**, please email us at [hackertrivianight@riseup.net](mailto:hackertrivianight@riseup.net).

@@ -7,18 +7,15 @@
     <p id="Tagline">Hack the planet. Frag the man. Free the world.</p>
     <p>A cybersecurity competition that anyone can play to benefit local community beneficiaries.</p>
 
-    {% for event in site.events limit: 1 %}
+    {% assign events = site.events | where_exp: "event", "event.endDate > site.time" | sort: "startDate" %}
+    {% if 1 <= events.size %}
+    {% for event in events limit: 1 %}
     <p>Next game&rsquo;s beneficiaries:</p>
     {% include event-beneficiaries.html event=event excerpt_only=true %}
     {% endfor %}
+    {% endif %}
 
     {% comment %} For now, we don't have a use for this.
-
-    <nav id="MainNavigation" onclick="void(0);">{% comment %} Mobile Safari requires `onclick` to activate touch events. {% endcomment %}
-        {% include site-navigation.html %}
-    </nav>
-
     {% include site-language.html %}
-
     {% endcomment %}
 </header>

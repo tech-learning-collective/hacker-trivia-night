@@ -2,8 +2,6 @@
 title: Why are you doing this?
 ---
 
-That&rsquo;s a fair question.
-
 ### The short version
 
 We miss our local bars and clubs (and many others who are struggling), so we decided to do something about it. We made our own classic bar trivia game, hyperlinked in to the 21<sup>st</sup> century. Thus, **Hacker Trivia Night** was born!

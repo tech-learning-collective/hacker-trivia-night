@@ -51,7 +51,7 @@ defaults:
   - scope:
       path: "" # An empty string here means all files in the project.
     values:
-      layout: html5
+      layout: page
       lang: *lang
 
   # Set the correct layout for collection types.

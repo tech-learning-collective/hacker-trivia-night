@@ -16,28 +16,30 @@ Prize money from the pool of collected donations is then divided and distrubted 
 <details markdown="1">
 <summary><span>Players</span></summary>
 
-Beginners (&ldquo;newbies&rdquo;) are welcome and encouraged to play! You can&rsquo;t be l33t if you don&rsquo;t try!
+Beginners (&ldquo;newbies&rdquo;) are welcome and encouraged to play! You can&rsquo;t be l33t if you don&rsquo;t try! If you&rsquo;re looking to level up your hacking skills, visit [TechLearningCollective.com](https://techlearningcollective.com/) to learn how you can participate in our next computer security training workshop.
 
 Here&rsquo;s how to win money for your chosen beneficiary:
 
 1. [Register](https://ctf.techlearningcollective.com/index.php?page=registration) on our game website:
     * Enter your name and an email address to identify yourself.
-    * Form a team with others by entering additional names and email addresses at the time you register.  
-        <small>(You can play if you are alone by making a team of one player.)</small>
+    * Form a team with others by entering additional names and email addresses when you register.  
+        <small>(You can play by yourself making a team of one player.)</small>
     * Choose a team name, password, and emblem.  
         <small>(Give your team password to your teammates. Your teammates can then join you by logging in using the team name and the team password.)</small>
-1. To win prize money for your beneficiary, you must declare a beneficiary at the time you register:
-    * To declare a beneficiary, ensure that your team includes one &ldquo;player&rdquo; account bearing your beneficiary&rsquo;s name and email address.  
+1. [Declare a beneficiary]({% link faq/index.md %}#how-do-i-choose-who-my-winnings-will-go-to) when you register so that your earnings are donated to the group you want to support:
+    * To declare a beneficiary, include one &ldquo;player&rdquo; account bearing your beneficiary&rsquo;s name and email address. *Double-check your spelling!*  
         <small>(You can declare more than one beneficiary, in which case your portion of any winnings will be evenly split among the beneficiaries you declared.)</small>
-1. When the game starts, earn points by working with your teammates to find answers to the &ldquo;hacker trivia&rdquo; questions and solutions to the challenge puzzles:
+1. Earn points by working with your teammates to find answers to the &ldquo;hacker trivia&rdquo; questions and solutions to the challenge puzzles:
     * Consider setting up a private chat room or video conference with your teammates ahead of time so that you can collaborate more effectively and earn more points faster.  
         <small>We recommend [Jitsi Meet](https://meet.jit.si/) (or any of these [additional Jitsi Meet instances](https://framatalk.org/accueil/en/info/)).</small>
-1. Compete against the other teams to score more points faster than they do, until the game clock expires.
+1. Compete against the other teams to score more points faster than they do before the game clock counts down to zero.
     * You can sometimes earn bonus points simply by being the first team to solve a particular challenge.
     * Harder challenges are worth more points, but don&rsquo;t let another team overtake you simply by solving many easier challenges as you grind away on a difficult task! 
     * You can pay for hints with points you&rsquo;ve earned from solving previous challenges, but be mindful not to pay for more hints than you can afford!
-1. The team with the most points at the end of the game is declared the winner and claims the grand prize for their chosen beneficiary.
-    * In the case of a tie, the faster team wins.
+1. You win if your team has the most points when the game clock hits zero.
+    * Winning teams earn their declared beneficiaries prizes in the form of cash donations.
+    * In the case of a tied score, the team with the most correct answers wins.  
+    <small>(If multiple teams are still tied, the team who answered those questions correctly the fastest will be declared the winner.)</small>
 
 Ready to hack for great justice?
 
@@ -67,3 +69,5 @@ Good samaritans such as yourself, your friends, your neighbors, and others donat
 
 We use well-known crowdfunding platforms like GoFundMe to keep donors updated and to help manage funds in a trusted, transparent manner.
 </details><!-- Donors -->
+
+Still have questions? Read the [game rules]({% link about/index.md %}#rules) and check out the [FAQ]({% link faq/index.md %}).

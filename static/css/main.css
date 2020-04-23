@@ -19,7 +19,8 @@ h1 {
 h2,
 h3,
 #Masthead,
-#PageFooter {
+#PageFooter,
+#MainNavigation ul {
     margin: 0;
     padding: 0;
 }
@@ -48,6 +49,7 @@ h3::before {
 .icon {
     width: 1em;
 }
+#MainNavigation a,
 a.button {
     display: inline-block;
     border: .15em solid yellow;
@@ -63,6 +65,7 @@ a.button img.icon {
     filter: invert(100%);
     transition: filter 0.5s;
 }
+#MainNavigation a:hover,
 a.button:hover {
     border: .15em solid yellow;
     color: #000;
@@ -156,6 +159,23 @@ ol li {
     margin: 0 auto 1em;
 }
 
+/**
+ * @group Main navigation.
+ */
+#MainNavigation {
+    margin-bottom: 2em;
+}
+#MainNavigation li::before {
+    content: none;
+}
+#MainNavigation ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+#MainNavigation li {
+    flex-grow: 1;
+}
+
 @media screen and (min-width: 690px) {
     body {
         padding: 0 120px 2em;
@@ -219,6 +239,11 @@ details {
 }
 details:hover {
     border: 1px dotted yellow;
+}
+details:target {
+    border: 1px solid yellow;
+    box-shadow: 0 0 15px yellow;
+    transition: box-shadow 2s, border 2s;
 }
 details summary {
     color: #EEE;

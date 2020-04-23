@@ -1,4 +1,9 @@
 <footer id="PageFooter">
+
+    <nav id="MainNavigation" onclick="void(0);">{% comment %} Mobile Safari requires `onclick` to activate touch events. {% endcomment %}
+        {% include site-navigation.html %}
+    </nav>
+
     <p>{{ site.title}} is a <a href="https://techlearningcollective.com/">Tech Learning Collective</a> and <a href="https://shiftctrl.space/">Shift-CTRL Space</a> production.</p>
     <p>Copyright &copy; {{ site.time | date: "%Y" }}. All rights reserved.</p>
 </footer>

@@ -1,0 +1,12 @@
+---
+layout: html5
+---
+
+{% for content in site.contents %}
+<section{% if content.html_id %} id="{{ content.html_id }}"{% endif %}>
+    <h2>{{ content.title }}</h2>
+    <div class="e-content">
+        {{ content.content }}
+    </div>
+</section>
+{% endfor %}
