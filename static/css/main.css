@@ -55,6 +55,7 @@ h3::before {
 #MainNavigation a,
 a.button {
     display: inline-block;
+    margin-bottom: .5em;
     border: .15em solid yellow;
     border-radius: 5px;
     padding: .5em;

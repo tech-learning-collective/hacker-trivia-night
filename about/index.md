@@ -6,6 +6,13 @@ i18n: about
 {% assign content = site.contents | where: "slug", "about-hacker-trivia-night" | first %}
 {{ content.content }}
 
+## Beneficiaries
+
+To be selected as a Hacker Trivia Night beneficiary, organizations and groups must first complete the [Hacker Trivia Night Beneficiary Application]({% link beneficiaries/apply/index.md %}#MainContent) form. The application is quick, easy, and absolutely free.
+
+{:style="text-align: center;"}
+[Apply to become a Beneficiary]({% link beneficiaries/apply/index.md %}#MainContent){:.button}
+
 ## Rules
 
 Gameplay rules are pretty simple. In brief, they are:
