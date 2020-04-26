@@ -101,6 +101,11 @@ exclude:
     - static/flag-icon-css/*.yaml
     - static/flag-icon-css/assets
 
+payments:
+  processors:
+    paypal:
+      user_id: techlearningcollective@riseup.net
+
 # Load whitelisted plugins.
 # See https://help.github.com/en/articles/configuring-jekyll-plugins
 plugins:

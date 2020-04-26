@@ -267,3 +267,38 @@ details summary span:hover {
     from, to { border-color: transparent }
     50% { border-color: orange; }
 }
+
+/**
+ * @group PayPal integrations.
+ */
+#paypal-return-cancel,
+#paypal-return-thank-you {
+    display: none;
+}
+#paypal-return-cancel:target,
+#paypal-return-thank-you:target {
+    display: block;
+    border: 1px dotted yellow;
+    padding: 1em;
+    font-size: xx-large;
+}
+
+/**
+ * @group Google Charts override styles.
+ */
+.google-chart[data-chart="table"] {
+    text-align: center;
+}
+.google-visualization-table table,
+.google-visualization-table tr,
+.google-visualization-table th,
+.google-visualization-table td,
+.google-visualization-table table .gradient {
+    background: transparent;
+    background-image: none;
+}
+.google-visualization-table table {
+    border: 1px solid white;
+    border-width: 1px 0 0 1px;
+    font-size: larger;
+}

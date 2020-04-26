@@ -1,8 +1,10 @@
 ---
-startDate: 2020-05-29 15:00:00 -0500
-endDate: 2020-05-31 18:00:00 -0500
+title: Restaurant and Bar Night
+startDate: 2020-05-29 15:00:00 -0400
+endDate: 2020-05-31 18:00:00 -0400
 location: https://ctf.techlearningcollective.com/
 eventStatus: EventPostponed
+competition_id: 1
 beneficiaries:
     - The Bad Old Days
     - The Footlight Bar

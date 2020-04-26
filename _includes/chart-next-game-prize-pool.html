@@ -1,0 +1,14 @@
+<div class="google-chart"
+    title="Next Game's Prize Pool"
+    data-spreadsheet="1nnQiJOydZlSVU4GniUs4NDu-DnX9fKWCbism0nceoRk"
+    data-sheet="Contributions"
+    data-query="select sum(D) where G = '{{ include.event.title }}' label sum(D) 'Next Game Prize Pool'"
+    data-chart="table"
+    data-format='[{
+        "type"    : "number",
+        "colIndex": 0,
+        "opts"    : {
+            "pattern" : "$#,###.##"
+        }
+    }]'
+></div>

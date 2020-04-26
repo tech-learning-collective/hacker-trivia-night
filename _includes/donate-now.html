@@ -1,0 +1,31 @@
+{% assign event = include.event %}
+{% assign item_name = "Donation for " | append: site.title | append: ": " | append: event.title %}
+{% assign item_name_anon = "Anonymous Donation for " | append: site.title | append: ": " | append: event.title %}
+{% assign item_number = "TRIVIA-" | append: event.competition_id | append: "-TRIVIA" %}
+{% assign item_number_anon = "TRIVIA-" | append: event.competition_id | append: "-ANON-TRIVIA" %}
+{% assign return = page.url | append: "#paypal-return-thank-you" %}
+{% assign cancel_return = page.url | append: "#paypal-return-cancel" %}
+
+<p style="text-align: center;" markdown="1">
+    <a
+        href="
+        {%- if site.time < event.endDate -%}
+        {%- include paypal-url.liquid item_name=item_name item_number=item_number return=return cancel_return=cancel_return -%}
+        {%- else -%}
+        {%- link donate/index.md -%}#MainContent
+        {%- endif -%}
+        "
+        class="button">
+        Donate now
+    </a>
+    <a href="
+        {%- if site.time < event.endDate -%}
+        {%- include paypal-url.liquid item_name=item_name_anon item_number=item_number_anon return=return cancel_return=cancel_return -%}
+        {%- else -%}
+        {%- link donate/index.md -%}#MainContent
+        {%- endif -%}
+        "
+        class="button">
+        Donate anonymously
+    </a>
+</p>
