@@ -18,6 +18,9 @@ html_id: about
     data-sheet="Contributions"
     data-query="select sum(D) label sum(D) 'Total Donations'"
     data-chart="table"
+    data-options='{
+        "sort": "disable"
+    }'
     data-format='[{
         "type"    : "number",
         "colIndex": 0,

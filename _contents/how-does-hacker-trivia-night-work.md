@@ -8,10 +8,19 @@ Here&rsquo;s how the fundraiser works in a nutshell:
 
 1. *Donors*: Kind-hearted people [contribute funds]({% link donate/index.md %}#MainContent) to create a prize pool for each Hacker Trivia Night competition.  
     <small>(We run competitions as often as we can, given the donations we collect.)</small>
+
+    {:style="text-align: center;"}
+    [Donate now]({% link donate/index.md %}#MainContent){:.button}
 1. *Beneficiaries*: Local businesses or community organizations in need [apply to become beneficiaries]({% link beneficiaries/apply/index.md %}#MainContent) of an upcoming competition.  
     <small>(Applying is free and approval is subject to sensible restrictions; we only select beneficiaries that do not undermine worker organizing, women&rsquo;s rights, or other social justice efforts.)</small>
+
+    {:style="text-align: center;"}
+    [Become a Beneficiary]({% link beneficiaries/apply/index.md %}#MainContent){:.button}
 1. *Players*: Anyone who wants to play and learn can [declare their beneficiary]({% link faq/index.md %}#how-do-i-choose-who-my-winnings-will-go-to) when they [register their team](https://ctf.techlearningcollective.com/index.php?page=registration).  
     <small>(Games are free to play, scored in real-time, and are welcoming to beginners. Watch a short [demo animation]({% link static/images/screencapture.gif %}) to see what gameplay is like.)</small>
+
+    {:style="text-align: center;"}
+    [⚑ Click here to play ⚑](https://ctf.techlearningcollective.com/){:.button}
 
 Prize money from the pool of collected donations is then divided and distrubted among the top-performing teams&rsquo;s declared beneficiaries. Learn more about:
 

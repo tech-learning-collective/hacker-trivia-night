@@ -300,5 +300,5 @@ details summary span:hover {
 .google-visualization-table table {
     border: 1px solid white;
     border-width: 1px 0 0 1px;
-    font-size: larger;
+    font-size: medium;
 }

@@ -1,4 +1,8 @@
 <ul class="event-beneficiaries">
+    {% assign num_beneficiaries = include.event.beneficiaries | size %}
+    {% if 0 == num_beneficiaries %}
+    <li>To be determined; <a href="{% link beneficiaries/apply/index.md %}#MainContent">apply now to become a beneficiary</a>!</li>
+    {% else %}
     {% for beneficiary in include.event.beneficiaries %}
     <li>
     {% assign x = beneficiary | replace: " ", "_" %}
@@ -15,4 +19,5 @@
         {% endunless %}
     </li>
     {% endfor %}
+    {% endif %}
 </ul>
