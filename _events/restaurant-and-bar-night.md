@@ -7,7 +7,7 @@ eventStatus: EventPostponed
 competition_id: 1
 beneficiaries:
 #    - The Bad Old Days
-#    - The Footlight Bar
+    - The Footlight Bar
 #    - Wonderville
 ---
 
