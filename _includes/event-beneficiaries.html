@@ -9,7 +9,7 @@
     {% assign b = site.data.organizations[x] %}
         <div>
         {% if b.url %}<a href="{{ b.url }}">{% endif %}
-            {% if b.logo %}<img src="{{ b.logo }}" />{% endif %}
+            {% if b.logo %}<img src="{{ b.logo }}" alt="{{ b.name }} logo" />{% endif %}
             {{ b.name }}
             &lt;{{ b.email }}&gt;
         {% if b.url %}</a>{% endif %}
