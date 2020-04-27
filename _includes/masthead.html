@@ -5,7 +5,7 @@
         </a>
     </h1>
     <p id="Tagline">Hack the planet. Frag the man. Free the world.</p>
-    <p>A cybersecurity competition that anyone can play to benefit local community beneficiaries.</p>
+    <p>A gamified computer education event awarding cash donations to community beneficiaries in need.</p>
 
     {% assign events = site.events | where_exp: "event", "event.endDate > site.time" | sort: "startDate" %}
     {% if 1 <= events.size %}
