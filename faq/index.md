@@ -57,6 +57,7 @@ Extremely soon! During the confirmation process, we will verify your payout info
 <details id="for-players" open="open" markdown="1">
 <summary>For players</summary>
 * [Can I compete without donating?](#can-i-compete-without-donating)
+* [Do I have to be a hacker to play or win?](#do-i-have-to-be-a-hacker-to-play-or-win)
 * [How can I improve my skills?](#how-can-i-improve-my-skills)
 * [How do I choose who my winnings will go to?](#how-do-i-choose-who-my-winnings-will-go-to)
 
@@ -69,6 +70,16 @@ However, *please consider making a donation of any amount* if you can afford it,
 Even a small donation helps make this event better and, ultimately, helps the beneficiaries who really need it. Also, our team spends considerable effort to produce events like these and we cannot continue to run them without financial contributions from people just like you.
 
 You may also play Hacker Trivia Night without [declaring a beneficiary](#how-do-i-choose-who-my-winnings-will-go-to), but in this case any points you earn are effectively wasted, as your team will be omitted from the final calculations. We encourage you to do the right thing and put your work to good use by choosing a beneficiary when you register!
+
+## Do I have to be a hacker to play or win?
+
+**No!** In a way, everyone who plays is already a hacker, because we are creatively solving a problem together. That&rsquo;s all hacking really means, at its root.
+
+Hacker Trivia Night is intentionally designed to be open and accessible to complete beginners, because part of its purpose is to introduce the general public to foundational computer security principles and practices in a fun, engaging way. While experienced hackers or security engineers will undoubtedly have an advantage during gameplay, most of them may find the game rather tame in comparison to what they are used to. This is intentional: we are not trying to show off, we are trying to help the general public learn more about how computer systems.
+
+That means Hacker Trivia Night is a fantastic way to get started learning about computer security, even if you have no prior experience in the field. What&rsquo;s more, the fact that you will simultaneously be helping raise funds for community organizations that need the support means that no matter how well you do, your participation will be appreciated and celebrated!
+
+If you find that you had a lot of fun and want to know more, read more about how [Tech Learning Collective offers affordable and equally fun online education and training courses and workshops](#how-can-i-improve-my-skills).
 
 ## How can I improve my skills?
 
