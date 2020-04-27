@@ -8,7 +8,7 @@ competition_id: 1
 beneficiaries:
 #    - The Bad Old Days
     - The Footlight Bar
-#    - Wonderville
+    - Wonderville
 ---
 
 Join us for our first Hacker Trivia Night supporting beneficiaries in the food (and drink) service industry!
