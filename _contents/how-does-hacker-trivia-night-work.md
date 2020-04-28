@@ -84,7 +84,7 @@ Here&rsquo;s how to win money for your chosen beneficiary:
 1. [Register](https://ctf.techlearningcollective.com/index.php?page=registration) on our game website:
     * Enter your name and an email address to identify yourself.
     * Form a team with others by entering additional names and email addresses when you register.  
-        <small>(You can play by yourself making a team of one player.)</small>
+        <small>(To play by yourself, make a team with only one player.)</small>
     * Choose a team name, password, and emblem.  
         <small>(Give your team password to your teammates. Your teammates can then join you by logging in using the team name and the team password.)</small>
 1. [Declare a beneficiary]({% link faq/index.md %}#how-do-i-choose-who-my-winnings-will-go-to) when you register so that your earnings are donated to the group you want to support:
