@@ -27,7 +27,7 @@ Prize money from the pool of collected donations is then divided and distrubted 
 <details markdown="1">
 <summary><span>Donors</span></summary>
 
-Anyone who can afford to do so is encourage to [donate]({% link donate/index.md %}#MainContent) to the Hacker Trivia Night prize pool that will go to support the campaign&rsquo;s beneficiaries.
+Anyone who can afford to do so is encouraged to [donate]({% link donate/index.md %}#MainContent) to the Hacker Trivia Night prize pool that will go to support the campaign&rsquo;s beneficiaries.
 
 {:style="text-align: center;"}
 [Donate now]({% link donate/index.md %}#MainContent){:.button}
