@@ -47,7 +47,7 @@ Anyone who can afford to do so is encouraged to [donate]({% link donate/index.md
 <details markdown="1">
 <summary><span>Beneficiaries</span></summary>
 
-Beneficiaries are groups or organizations who are doing awesome things. Our definition of &ldquo;awesome&rdquo; is quite loose; beneficiaries can be any local businesses, non-profit group, or other organization that has registered with us and that we believe shares our pro-social values. Not sure if you qualify? Don&rsquo;t stress! [Applying]({% link beneficiaries/apply/index.md %}#MainContent) is free.
+Beneficiaries are groups or organizations who are doing awesome things. Our definition of &ldquo;awesome&rdquo; is quite loose; beneficiaries can be any local business, non-profit group, or other organization that has registered with us and that we believe shares our pro-social values. Not sure if you qualify? Don&rsquo;t stress! [Applying]({% link beneficiaries/apply/index.md %}#MainContent) is free.
 
 {:style="text-align: center;"}
 [Become a Beneficiary]({% link beneficiaries/apply/index.md %}#MainContent){:.button}
@@ -65,7 +65,7 @@ Here&rsquo;s how to get money by participating in Hacker Trivia Night:
     * Hacker Trivia Night competitions are typically themed, so you will most likely be selected as a beneficiary in a group with similar types of beneficiaries.
 1. Enlist champions to form teams to compete on your behalf.
     * Players must [declare their beneficiary]({% link faq/index.md %}#how-do-i-choose-who-my-winnings-will-go-to) when they register their teams.
-    * You may also compete on your behalf!
+    * You may also compete on your own behalf!
 1. Collect prize money after the game if any teams competing on your behalf have won.
     * The exact amount depends on the donations received from donors and the results of the game, of course.
 
@@ -77,7 +77,7 @@ Here&rsquo;s how to get money by participating in Hacker Trivia Night:
 <details markdown="1">
 <summary><span>Players</span></summary>
 
-Beginners (&ldquo;newbies&rdquo;) are welcome and encouraged to play! You can&rsquo;t be l33t if you don&rsquo;t try! If you&rsquo;re looking to level up your hacking skills, visit [TechLearningCollective.com](https://techlearningcollective.com/) to learn how you can participate in our next computer security training workshop.
+Beginners (&ldquo;newbies&rdquo;) are welcome and encouraged to play! You can&rsquo;t be l33t if you don&rsquo;t try! If you&rsquo;re looking to level up your hacking skills, visit [TechLearningCollective.com](https://techlearningcollective.com/) to learn how you can participate in our next computer security training workshop, on which many in-game challenges are based.
 
 Here&rsquo;s how to win money for your chosen beneficiary:
 
