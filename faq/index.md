@@ -7,7 +7,7 @@ title: Frequently Asked Questions
 [Donors](#for-donors){:.button}
 [Players](#for-players){:.button}
 
-We are working out the final details for numerous parts of the competition. We will update this page with more information as it becomes available.
+Get answers to common questions about {{ site.title }} on this page.
 
 <details id="for-beneficiaries" open="open" markdown="1">
 <summary>For beneficiaries</summary>
