@@ -91,6 +91,7 @@ html, body {
     padding: 0;
 }
 body {
+    margin-top: 3em;
     padding: 0 20px 2em;
 }
 #the-background-noise {
@@ -185,6 +186,7 @@ ol li {
 
 @media screen and (min-width: 690px) {
     body {
+        margin-top: 0;
         padding: 0 60px 2em;
     }
     #Masthead {
