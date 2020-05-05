@@ -51,7 +51,7 @@ main:
       title: Contact
       identifier: contact
       lang: en_US
-    - url: /blog/#MainContent
+    - url: https://techlearningcollective.com/blog/
       title: Blog
       identifier: blog
       lang: en_US
